@@ -7,12 +7,22 @@
     <title>Bottom</title>
     <style>
         .bottom>div{
-            background-color: #ededed;
+            background-color: #f2f2f2;
         }
         .bottom>div::after{
             content: "";
             display: block;
-            
+            clear: both;
+
+        }
+        div>ul{
+            list-style: none;
+        }
+        .wu>li{
+            float: left;
+            margin-left: 20px;
+            font-size: 10px;
+
         }
     </style>
 </head>
@@ -22,7 +32,14 @@
     <div class="two"></div>
     <div class="three"></div>
     <div class="four"></div>
-    <div class="five"></div>
+    <div class="five">
+        <ul class="wu" >
+            <li>京公安网安备11010502008968</li>
+            <li>京ICP备10214630</li>
+            <li>营业执照</li>
+            <li>无线电发射设备销售备案编号11201910351200</li>
+        </ul>
+    </div>
     </div>
 </body>
 </html>
