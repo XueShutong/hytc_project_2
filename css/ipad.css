@@ -1,0 +1,47 @@
+/* 重置样式 */
+html {
+    font-size: 11px;
+    color: #141414;
+  }
+  body {
+    margin: 0;
+  }
+  ul,h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+    text-align: center;
+  }
+  a {
+    color: #333333;
+    text-decoration: none;
+  }
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background-color:#fafafa;
+  }
+  /*目录*/
+  .wrapper::after {
+    background-color: #279f5a;
+    content:"";
+    display: block;
+    clear: both;
+  }
+  .mulu >ul{
+   
+    text-align: center;
+    
+  }
+  .mulu >ul > li{
+    float: left;
+    margin-left: 20px;
+    width: 80px;
+    text-align: center;
+    line-height: 1em;
+    cursor: pointer;
+  }
+  .mulu >ul>li:hover {
+    color: #279f5a;}
