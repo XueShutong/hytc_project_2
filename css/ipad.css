@@ -1,0 +1,60 @@
+/* 重置样式 */
+ html {
+    font-size: 11px;
+    color: #141414; 
+  }
+  body {
+    margin: 0;
+    text-align: center;
+    
+
+  }
+  h1,h2,h3 {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+    text-align: center;
+  }
+  a {
+    color: #4d77e9;
+  }
+  .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background-color:#fafafa;
+  }
+  /*目录*/
+  .wrapper::after {
+    content:"";
+    display: block;
+    clear: both;
+  }
+  
+  .mulu >ul{
+   
+    text-align: center;
+    
+  }
+  .mulu >ul > li{
+    float: left;
+    margin-left: 20px;
+    width: 80px;
+    text-align: center;
+    line-height: 1em;
+    cursor: pointer;
+  }
+  
+  .mulu >ul>li:hover {
+    color: #4775ca;}
+
+  
+  .xilie>.wrapper>ul>.pro{
+    float: left;
+    text-align: left;
+    margin: 100px,80px,100px,50px;
+  }
+  .xilie>.wrapper::before{
+    margin-left: 50px
+  }
