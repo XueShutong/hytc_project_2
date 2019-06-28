@@ -1,0 +1,211 @@
+/* music样式 */
+html {
+    margin-top: 160px ;
+
+}
+body{
+    margin:30 30px;
+    margin-left:250px;
+    font-size:40px;
+    font-weight:bold;
+}
+.mianfei{
+    color:white;
+    background-color:red;
+    width:160px;
+    margin:30px;
+}
+.shiyong{
+    font-size:12px;
+    color:gray;
+    margin:20px;
+}
+.jinyibu::after{
+    content:"";display:block;clear:both;
+}
+.jinyibu{
+    color:#1088eb;
+    font-size:15px;
+    margin:0 13px;
+}
+.diyizhang{
+    float:right;
+    margin-top:-400px;
+}
+.jia{
+    margin-top:600px;
+}
+.goumai{
+    color:#1088eb;
+    font-size:15px;
+}
+.dierzhang{
+    float:right;
+    margin-top:-300px;
+}
+.AirPods{
+    margin-top:800px;
+}
+.goumai2{
+    color:#1088eb;
+    font-size:15px;
+}
+.tou{
+    float:right;
+    margin-top:-400px;
+}
+.touch{
+    margin-top:600px;
+}
+.goumai3{
+    color:#1088eb;
+    font-size:15px;
+}
+.yinyue{
+    float:right;
+    margin-top:-400px;
+}
+.gequ{
+    margin-top:600px;
+}
+.goumai4{
+    color:#1088eb;
+    font-size:15px;
+}
+.peijian{
+    float:right;
+    margin-top:-300px;
+}
+.app{
+    margin-top:800px;
+}
+.xuan{
+    color:#1088eb;
+    font-size:15px;
+}
+.chongzhi{
+    margin-top:-300px;
+    margin-left:500px;
+}
+.iTunes{
+    margin-top:300px;
+}
+.goumai5{
+    color:#1088eb;
+    font-size:15px;
+}
+.siren{
+    float:right;
+    margin-top:-350px;
+}
+.duokuan{
+    margin-top:500px;
+    text-align:center;
+}
+.chuzi{
+    float:left;
+}
+
+.ziti{
+    font-size:20px;
+}
+.qingdian{
+    font-size:15px;
+    margin-left:90px;
+}
+.jinyibu2{
+    color:#1088eb;
+    font-size:15px;
+    margin-left:90px;
+}
+.ku{
+    margin-right:500px;
+    margin-top:-130px;
+    font-size:20px;
+    float:right;
+}
+.jinyibu3{
+    color:#1088eb;
+    font-size:15px;
+    margin-right:480px;
+    float:right;
+    margin-top:-10px;
+}
+.ku{
+    font-size:20px;
+    margin-top:-160px;
+}
+.zhonglei{
+    font-size:15px;
+    margin-right:260px;
+    float:right;
+    margin-top:-50px;
+}
+.shang{
+    font-size:15px;
+    margin-right:370px;
+    float:right;
+    margin-top:-30px;
+}
+.logic{
+    margin-top:100px;
+    font-size:20px;
+}
+.mac{
+    font-size:15px;
+    margin-left:90px;
+}
+.zhi{
+    font-size:15px;
+    margin-left:90px;
+}
+.jinyibu4{
+    color:#1088eb;
+    font-size:15px;
+    margin-left:90px;
+}
+.Main{
+    font-size:20px;
+    margin-right:400px;
+    float:right;
+    margin-top:-160px;
+}
+.jiang{
+    font-size:15px;
+    margin-right:140px;
+    float:right;
+    margin-top:-50px;
+}
+.wang{
+    font-size:15px;
+    margin-right:460px;
+    float:right;
+    margin-top:-30px;
+}
+.jinyibu5{
+    color:#1088eb;
+    font-size:15px;
+    margin-right:420px;
+    float:right;
+    margin-top:-10px;
+}
+.xieshou{
+    margin-top:200px;
+    margin-left:500px;
+}
+.yu{
+    text-align:center;
+}
+.zai{
+    text-align:center;
+    font-size:15px;
+}
+.yuan{
+    text-align:center;
+    font-size:15px; 
+}
+.jinyibu6{
+    color:#1088eb;
+    text-align:center;
+    font-size:15px; 
+}
