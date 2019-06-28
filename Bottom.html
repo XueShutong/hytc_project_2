@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bottom</title>
     <style>
+        /*对整体添加样式*/
         .bottom>div{
+            padding: 0 80px;
+        }
+        .bottom{
             background-color: #f2f2f2;
         }
         .bottom::after{
@@ -15,56 +19,155 @@
             clear: both;
 
         }
-        div>ul{
+        /*去除表格样式*/
+        div ul{
             list-style: none;
         }
+        /*对第五行添加样式*/
         .wu>li{
             float: left;
             margin-left: 10px;
-            font-size: 10px;
+            font-size: 12px;
             color: #666666;
+            line-height: 1px;
         }
         .wu :nth-child(2):hover,.wu :nth-child(3):hover{
-            color: aquamarine;
+              cursor: pointer;
+              text-decoration: underline;
         }
-        .si>li{
+        .wu{
+            padding:0 170px;
+        }
+        /*对第四行添加样式*/
+        .si{
+            padding:0 170px; 
+        }
+        .right > li {
+            text-align: center;
+            width:66px;
+        }
+        .right > li:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .right >li:nth-child(2),
+        .right >li:nth-child(3),
+        .right >li:nth-child(4),
+        .right >li:nth-child(5)
+        { 
+            border-left: 1px solid #dcdcdc;
+        }
+        
+        .si>li,.si>ul>li{
             float: left;
-            font-size: 10px;
-            color: #666666;
+            font-size: 12px;
+            color: #555555;
             margin-left: 10px;
+            line-height: 10px;
         }
-        .si :nth-child(2){
-            margin-left: 60px;
+        .si>li:nth-child(1){
+            margin-right: 20px;
+        }
+        /*对第三行添加样式*/
+        .three{
+            font-size: 12px;
+            margin-left: 10px;
+            border-bottom: 1px solid #dddddd;
+            line-height: 40px;
+        }
+        .san{
+            padding:0 170px; 
+        }
+        .san>.blue{
+            color: #0070c9;
+        }
+        .san>.blue:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        /*对第二行添加样式*/
+        .two{
+            margin: 0 180px;
+        }
+        .two{
+            float: left;
+        }
+        .选购{
+            padding-left: 3px;
+        }
+        .title{
+            font-size: 12px;
+        }
+        .选购>li{
+            font-size: 11px;
+            line-height: 25px;
+        }
+        .选购>li:hover{
+            cursor: pointer;
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <div class="bottom">
     <div class="one"></div>
-    <div class="two"></div>
-    <div class="three"></div>
+    <div class="two">
+        <div class="选购及了解">
+            <strong class="title">选购及了解</strong>
+            <ul class="选购">
+                <li>Mac</li>
+                <li>iPad</li>
+                <li>iPhone</li>
+                <li>Watch</li>
+                <li>Music</li>
+                <li>iTunes</li>
+                <li>HomePod</li>
+                <li>iPod touch</li>
+                <li>配件</li>
+                <li>App Store 充值卡</li>
+            </ul>
+        </div>
+        <div class="Apple Store">
+            <strong class="title">Apple Store 商店</strong>
+           <ul class="商店">
+               <li>查找零售店</li>
+               <li>Genius Bar 天才吧</li>
+               <li>Today at Apple</li>
+               <li>Apple 夏令营</li>
+               <li>Field Trip 课外活动</li>
+               <li>Apple Store App</li>
+               <li>翻新和优惠</li>
+               <li>分期付款</li>
+               <li>Apple Trade In 换购计划</li>
+               <li>订单状态</li>
+               <li>选购帮助</li>
+           </ul>
+        </div>
+        <div class="教育应用及商务应用"></div>
+        <div class="账户及Apple价值观"></div>
+        <div class="关于Apple"></div>
+    </div>
+    <div class="three">
+        <div class="san">
+        <span>更多选购方式：</span>
+        <span class="blue" >查找你附近的 Apple Store 零售店</span>
+        <span>及</span>
+        <span class="blue" >更多门店</span>
+        <span>，或者致电 400-666-8800。</span>
+        </div>
+    </div>
     <div class="four">
         <ul class="si">
             <li>
                 Copyright © 2019 Apple Inc. 保留所有权利。
             </li>
-            <li>
-                <li>
-                    隐私政策
-                </li>
-                <li>
-                    使用条款
-                </li>
-                <li>
-                    销售政策
-                </li>
-                <li>
-                    法律信息
-                </li>
-                <li>
-                    网站地图
-                </li>
-            </li>
+            <ul class="right">
+                <li>隐私政策</li>
+                <li>使用条款</li>
+                <li>销售政策</li>
+                <li>法律信息</li>
+                <li>网站地图</li>
+            </ul>
         </ul>
     </div>
     <br>
