@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bottom</title>
+    <style>
+        .bottom>div{
+            background-color: #f2f2f2;
+        }
+        .bottom::after{
+            content: "";
+            display: block;
+            clear: both;
+
+        }
+        div>ul{
+            list-style: none;
+        }
+        .wu>li{
+            float: left;
+            margin-left: 10px;
+            font-size: 10px;
+            color: #666666;
+        }
+        .wu :nth-child(2):hover,.wu :nth-child(3):hover{
+            color: aquamarine;
+        }
+        .si>li{
+            float: left;
+            font-size: 10px;
+            color: #666666;
+            margin-left: 10px;
+        }
+        .si :nth-child(2){
+            margin-left: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bottom">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four">
+        <ul class="si">
+            <li>
+                Copyright © 2019 Apple Inc. 保留所有权利。
+            </li>
+            <li>
+                <li>
+                    隐私政策
+                </li>
+                <li>
+                    使用条款
+                </li>
+                <li>
+                    销售政策
+                </li>
+                <li>
+                    法律信息
+                </li>
+                <li>
+                    网站地图
+                </li>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <div class="five">
+        <ul class="wu" >
+            <li>京公安网安备11010502008968</li>
+            <li>京ICP备10214630</li>
+            <li >营业执照</li>
+            <li>无线电发射设备销售备案编号11201910351200</li>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>
