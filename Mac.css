@@ -1,17 +1,17 @@
 body{
     margin: 0px;
-
 }
 .mac {
     text-align: center;
     margin: 0px;
     font-size: 34px;
     background-color:#fafafa;
+    padding-top: 71px;
    /* line-height: 1em;*/
 }
 .shili {
     text-align: center;
-    font-size: 50px;
+    font-size: 56px;
     margin: 0px;
     background-color:#fafafa;
     /*margin-bottom: 1px;*/
@@ -20,11 +20,44 @@ body{
 p{
     text-align: center;
     margin: 0px;
+    padding-top: .8em;
+    background-color: #fafafa;
 }
 
-    
+p.hei{
+    text-align: center;
+    margin-top: 0px;
+    background-color: #1b191c;
+    padding-top: .8em;
+}
 
-a:link {text-decoration:none;color:#0070c9;font-size: 20px;}    /* unvisited link */
+
+.final {
+    text-align: center;
+    margin: 0px;
+    font-size: 34px;
+    color: #ffffff;
+    background-color:#1b191c;
+    padding-top: 71px;
+   /* line-height: 1em;*/
+}
+.houqi {
+    text-align: center;
+    font-size: 56px;
+    margin: 0px;
+    color: #ffffff;
+    background-color:#1b191c;
+    font-style: normal;
+    /*margin-bottom: 1px;*/
+    /*line-height: 1em;*/
+}
+
+
+a:link {text-decoration:none;font-size: 17px;}    /* unvisited link */
 a:visited {text-decoration:none;} /* visited link */
 a:hover {text-decoration:underline;}   /* mouse over link */
 a:active {text-decoration:underline;}  /* selected link */
+a:link {color:#0070c9;}      /* 未访问链接*/
+a:visited {color:#0070c9;}  /* 已访问链接 */
+a:hover {color:#0070c9;}  /* 鼠标移动到链接上 */
+a:active {color:#0070c9;}  /* 鼠标点击时 */
