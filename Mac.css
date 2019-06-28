@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+
+}
+.mac {
+    text-align: center;
+    margin: 0px;
+    font-size: 34px;
+    background-color:#fafafa;
+   /* line-height: 1em;*/
+}
+.shili {
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    background-color:#fafafa;
+    /*margin-bottom: 1px;*/
+    /*line-height: 1em;*/
+}
+p{
+    text-align: center;
+    margin: 0px;
+}
+
+    
+
+a:link {text-decoration:none;color:#0070c9;font-size: 20px;}    /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:underline;}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */
