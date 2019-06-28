@@ -36,11 +36,11 @@
               text-decoration: underline;
         }
         .wu{
-            padding:0 170px;
+            padding:0;
         }
         /*对第四行添加样式*/
         .si{
-            padding:0 170px; 
+            padding:10px 100px; 
         }
         .right > li {
             text-align: center;
@@ -68,6 +68,9 @@
         .si>li:nth-child(1){
             margin-right: 20px;
         }
+        .four{
+            float: left;
+        }
         /*对第三行添加样式*/
         .three{
             font-size: 12px;
@@ -85,11 +88,14 @@
             cursor: pointer;
             text-decoration: underline;
         }
+        .three{
+            float: left;
+        }
         /*对第二行添加样式*/
         .two{
             margin: 0 180px;
         }
-        .two{
+        .two>div{
             float: left;
         }
         .选购{
@@ -106,6 +112,63 @@
             cursor: pointer;
             text-decoration: underline;
         }
+        .商店{
+            padding-left: 3px;
+        }
+        .商店>li{
+            font-size: 11px;
+            line-height: 25px;
+        }
+        .商店>li:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .AppleStore{
+            margin-left: 120px;
+        }
+        .教育应用及商务应用>div>ul{
+            padding-left: 3px;
+        }
+        .教育应用及商务应用>div>ul>li{
+            font-size: 11px;
+            line-height: 25px;
+        }
+        .教育应用及商务应用>div>ul>li:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .教育应用及商务应用{
+            margin-left: 120px;
+        }
+        .账户及Apple价值观>div>ul{
+            padding-left:3px;
+        }
+        .账户及Apple价值观>div>ul>li{
+            font-size: 11px;
+            line-height: 25px;
+        }
+        .账户及Apple价值观>div>ul>li:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .账户及Apple价值观{
+            margin-left: 120px;
+        }
+        .关于Apple>ul{
+            padding-left: 3px;
+        }
+        .关于Apple>ul>li{
+            font-size: 11px;
+            line-height: 25px;
+        }
+        .关于Apple>ul>li:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .关于Apple{
+            margin-left: 120px;
+        }
+
     </style>
 </head>
 <body>
@@ -127,7 +190,7 @@
                 <li>App Store 充值卡</li>
             </ul>
         </div>
-        <div class="Apple Store">
+        <div class="AppleStore">
             <strong class="title">Apple Store 商店</strong>
            <ul class="商店">
                <li>查找零售店</li>
@@ -143,10 +206,52 @@
                <li>选购帮助</li>
            </ul>
         </div>
-        <div class="教育应用及商务应用"></div>
-        <div class="账户及Apple价值观"></div>
-        <div class="关于Apple"></div>
-    </div>
+        <div class="教育应用及商务应用">
+            <div class="教育应用">
+                <strong class="title">教育应用</strong>
+                <ul class="教育">
+                    <li>Apple 与教育</li>
+                    <li>高校师生选购</li>
+                </ul>
+            </div>
+            <div class="商务应用">
+                <strong class="title">商务应用</strong>
+                <ul class="商务">
+                    <li>Apple 与商务</li>
+                    <li>商务选购</li>
+                </ul>
+            </div>
+        </div>
+        <div class="账户及Apple价值观">
+            <div class="账户">
+                <strong class="title">账户</strong>
+                <ul>
+                    <li>管理你的 Apple ID</li>
+                    <li>Apple Store 账户</li>
+                    <li>iCloud.com</li>
+                </ul>
+            </div>
+            <div class="Apple价值观">
+                <strong class="title">Apple价值观</strong>
+                <ul>
+                    <li>辅助功能</li>
+                    <li>环境责任</li>
+                    <li>隐私</li>
+                    <li>供应商责任</li>
+                </ul>
+            </div>
+        </div>
+        <div class="关于Apple">
+            <strong class="title">关于Apple</strong>
+            <ul>
+                <li>Newsroom</li>
+                <li>Apple 管理层</li>
+                <li>工作机会</li>
+                <li>创造就业</li>
+                <li>活动</li>
+                <li>联系 Apple</li>
+            </ul>
+        </div>
     <div class="three">
         <div class="san">
         <span>更多选购方式：</span>
